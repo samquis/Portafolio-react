@@ -2,9 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import editor from "../../Assets/Projects/srwelquis.png";
+import chatify from "../../Assets/Projects/library.png";
+import bitsOfCode from "../../Assets/Projects/portaloly.png";
 
 function Projects() {
   return (
@@ -22,10 +22,10 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="System library"
+              description="Sistema para una biblioteca para llevar el control y la administracion de los libros, prestamos y devuluciones, esta creado con java, MySql y tiene funciones que permite al usuario reservar libro."
+              ghLink="https://github.com/samquis/System-library"
+              demoLink="https://github.com/samquis/System-library"
             />
           </Col>
 
@@ -33,10 +33,10 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Portaforio HTML,CSS,JavaScript"
+              description="La pagina de mi portafolio que esta hecho con HTML, CSS, JavaScript que contiene la informacion de mi persona acerca de mis habilidades, pagina tiene animaciones para interactuar."
+              ghLink="https://github.com/samquis/portafolyWeb"
+              demoLink="https://github.com/samquis/portafolyWeb"
             />
           </Col>
 
@@ -45,9 +45,9 @@ function Projects() {
               imgPath={editor}
               isBlog={false}
               title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              description="Sitio web de una constructora SRWelquis. esta desarrollado con las tecnologias HTML, CSS, Nodejs, Express, utilizando como base de datos MongoDB para añmacenar informaciones que interactuan los cientes para solicitar algun consultas, cotizaciones sobre la contruccion."
+              ghLink="https://github.com/samquis"
+              demoLink="https://github.com/samquis"              
             />
           </Col>
 

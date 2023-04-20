@@ -8,7 +8,7 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hola a todos, Soy <span className="purple">Samuel Quispe FLores </span>
+            Hola a todos, Soy <span className="purple">Samuel Quispe Flores </span>
             de <span className="purple"> Potosí, Bolivia.</span>
             <br />Soy un estudiante de septimo semestre que cursa materia de Seminario de Sistemas
             de la Carrera de Ingenieria de Sistemas. 
