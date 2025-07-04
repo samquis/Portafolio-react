@@ -9,7 +9,7 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "https://raw.githubusercontent.com/samquis/portafolio-react/master/src/Assets/CV_SamuelQuispe.pdf";
+  "https://raw.githubusercontent.com/samquis/portafolio-react/master/src/Assets/CV_Samuel_Quispe_Flores_Assistant_virtual";
   
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
